@@ -9,8 +9,6 @@
   font-family: $copy-font-family-default;
   color: $copy-color-default;
   line-height: 1em;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, .2);
   border-radius: .175em;
   cursor: pointer;
 
@@ -25,7 +23,7 @@
 }
 
 .radio--selected {
-  background-color: #eee;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .radio__input {
@@ -37,13 +35,12 @@
  * Radio: Elizabeth
  -------------------------------*/
 .form--elizabeth .radio {
-  background-color: rgba(255, 255, 255, .6);
-  border: none;
 
   &.radio--selected,
   &:hover {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .6);
   }
+
 }
 
 
@@ -51,10 +48,10 @@
  * Radio: Grey
  -------------------------------*/
 .form--grey .radio {
-  background-color: #eee;
 
   &.radio--selected,
   &:hover {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
   }
+
 }
