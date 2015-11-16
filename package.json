@@ -1,6 +1,6 @@
 {
   "name": "@nib-styles/react-form",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "build": "sass-composer index.scss -o dist/index.bundled.css",
     "watch": "sass-composer --watch index.scss -o dist/index.bundled.css"

@@ -42,7 +42,7 @@
   &.checkbox--selected,
   &:hover {
     background-color: rgba(255, 255, 255, .6);
-    color: #444;
+    color: $copy-color-default;
   }
 }
 
@@ -77,5 +77,5 @@
 
 // White ticks on green form (special class as outside doesn't quite work for this)
 .form--elizabeth .control--valid .control__alert--checkboxGroup {
-  color: white;
+  color: #fff;
 }
