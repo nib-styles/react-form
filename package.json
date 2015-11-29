@@ -1,12 +1,13 @@
 {
   "name": "@nib-styles/react-form",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "build": "sass-composer index.scss -o dist/index.bundled.css",
     "watch": "sass-composer --watch index.scss -o dist/index.bundled.css"
   },
   "dependencies": {
     "@nib-styles/sass-breakpoints": "^1.0.0",
+    "@nib-styles/v2-buttons": "^2.1.1",
     "@nib-styles/v2-icons": "^2.6.2",
     "@nib-styles/v2-typography": "^2.2.0",
     "sass-ems": "^1.0.3"
