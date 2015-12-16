@@ -9,6 +9,7 @@ $copy-font-family-default: 'Open Sans', sans-serif;
 @import './lib/label';
 @import './lib/control/control';
 @import './lib/fields/text';
+@import './lib/fields/textarea'
 @import './lib/fields/select';
 @import './lib/fields/radio';
 @import './lib/fields/checkbox';
