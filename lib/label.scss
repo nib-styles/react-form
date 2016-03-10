@@ -5,11 +5,11 @@
 
 .control__label {
   display: block;
-  font-family: $copy-font-family-default;
+  font-family: $form-copy-font;
   font-size: .9rem;
   font-weight: 700;
   line-height: 1.25rem;
-  color: $copy-color-default;
+  color: $form-copy-color;
   text-transform: uppercase;
 }
 

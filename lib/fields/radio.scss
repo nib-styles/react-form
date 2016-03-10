@@ -6,8 +6,8 @@
   display: inline-block;
   padding: 0.75em;
   font-size: 1rem;
-  font-family: $copy-font-family-default;
-  color: $copy-color-default;
+  font-family: $form-copy-font;
+  color: $form-copy-color;
   line-height: 1em;
   border-radius: .175em;
   cursor: pointer;
@@ -40,7 +40,7 @@
   &.radio--selected,
   &:hover {
     background-color: rgba(255, 255, 255, .6);
-    color: $copy-color-default;
+    color: $form-copy-color;
   }
 
 }
