@@ -4,9 +4,12 @@
   position:relative;
   display: inline-block;
   box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, .2);
 }
 
 .select__input {
+
+  width: 100%;
   margin: 0;
   padding: .5em 2em .5em .5em;
 
@@ -17,26 +20,26 @@
   color: $form-copy-color;
   height: 2.5em;
 
-  border: 1px solid rgba(0, 0, 0, .2);
+  border: none;
   background: #fff;
   -moz-appearance: none;
   -webkit-appearance: none;
   border-radius: 0;
 }
 
-     /*-------------------------------
-     * IE FIX: Hide select arrow
-     -------------------------------*/
-      .select__input::-ms-expand {
-        display: none;
-      }
+/*-------------------------------
+ * IE FIX: Hide select arrow
+ -------------------------------*/
+.select__input::-ms-expand {
+  display: none;
+}
 
-  /*-------------------------------
-     * Select: Elizabeth
-     -------------------------------*/
-  .form--elizabeth .select__input {
-    border: none;
-  }
+/*-------------------------------
+ * Select: Elizabeth
+ -------------------------------*/
+.form--elizabeth .select__input {
+  border: none;
+}
 
 .select:after {
   position: absolute;
