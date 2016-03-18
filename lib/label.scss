@@ -3,20 +3,19 @@
  * Label: Common
  -------------------------------*/
 
-.control__label {
+.label {
   display: block;
   font-family: $form-copy-font;
   font-size: .9rem;
   font-weight: 700;
   line-height: 1.25rem;
-  color: $form-copy-color;
   text-transform: uppercase;
 }
 
-
 /*-------------------------------
- * Label: Elizabeth
+ * Label: variants
  -------------------------------*/
+
 .form--elizabeth .control__label {
   color: #fff;
 }
