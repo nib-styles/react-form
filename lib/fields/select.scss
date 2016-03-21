@@ -55,7 +55,7 @@
   border-right: 6px solid transparent;
 }
 
-.select__input {
+.select__input > option {
   color: $color-doc;
 }
 
