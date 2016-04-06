@@ -1,8 +1,8 @@
-@import "@nib-styles/sass-breakpoints";
-@import "@nib-styles/v2-icons";
-@import "@nib-styles/v2-buttons/compiled"; //need this for the button
-@import "@nib-styles/v2-typography";
-@import "@nib-styles/colors";
+@import '@nib-styles/sass-breakpoints';
+@import '@nib-styles/v2-icons';
+@import '@nib-styles/v2-buttons'; //need this for the button
+@import '@nib-styles/v2-typography';
+@import '@nib-styles/colors';
 
 $form-copy-color: $color-doc;
 $form-copy-font: $font-copy;
