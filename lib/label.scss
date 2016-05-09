@@ -3,9 +3,11 @@
  * Label: Common
  -------------------------------*/
 
+$label-text-color: $color-doc;
+
 .label {
   display: block;
-  color: $color-doc;
+  color: $label-text-color;
   font-family: $form-copy-font;
   font-size: .9rem;
   font-weight: 700;
@@ -13,10 +15,6 @@
   text-transform: uppercase;
 }
 
-/*-------------------------------
- * Label: variants
- -------------------------------*/
-
-.form--elizabeth .control__label {
-  color: #fff;
+.label--disabled {
+  color: text-color-disabled($label-text-color);
 }
