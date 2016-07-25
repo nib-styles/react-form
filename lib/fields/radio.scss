@@ -12,24 +12,28 @@
   border-radius: .175em;
   cursor: pointer;
 
-  &:hover {
+  &:hover:not(&--disabled) {
     background-color: rgba(0, 0, 0, 0.1);
     transition: all .2s;
   }
+
+  &--selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &--disabled {
+    cursor: default;
+  }
+
+  &__input {
+    margin: 0;
+  }
+
 }
 
 .radio + .radio {
   margin-left: 0.2em;
 }
-
-.radio--selected {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.radio__input {
-  margin: 0;
-}
-
 
 /*-------------------------------
  * Radio: Elizabeth
