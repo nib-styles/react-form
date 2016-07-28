@@ -8,6 +8,11 @@ Styles for `React` based forms at `nib`.
 
 ## Change log
 
+### 0.9.0
+
+- moved `radio` implementation to `@nib-components/radio`
+
+
 ### 0.8.1
 
 - fix: added `margin: 0` to `divider` to override browser specified margins on `<hr/>`s
