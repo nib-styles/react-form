@@ -8,7 +8,7 @@ Styles for `React` based forms at `nib`.
 
 ## Change log
 
-### 0.7.0
+### 0.8.0
 
 - break: renamed `form__divider` to `divider` and removed the margin so it can be used independently of the form
 
