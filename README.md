@@ -8,6 +8,10 @@ Styles for `React` based forms at `nib`.
 
 ## Change log
 
+### 0.7.0
+
+- break: renamed `form__divider` to `divider` and removed the margin so it can be used independently of the form
+
 ### 0.6.1
 
 - fix: fixed disable hover state on `radio` inputs - bg color no longer changes and the cursor is left as the default
