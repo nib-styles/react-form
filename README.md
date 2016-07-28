@@ -8,6 +8,10 @@ Styles for `React` based forms at `nib`.
 
 ## Change log
 
+### 0.8.1
+
+- fix: added `margin: 0` to `divider` to override browser specified margins on `<hr/>`s
+
 ### 0.8.0
 
 - break: renamed `form__divider` to `divider` and removed the margin so it can be used independently of the form
