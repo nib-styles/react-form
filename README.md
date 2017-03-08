@@ -10,7 +10,7 @@ Styles for `React` based forms at `nib`.
 
 ## Change log
 
-### 1.0.0
+### 1.0.0-.1
 
 - break: bump version of `v2-icons`
 
