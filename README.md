@@ -2,11 +2,17 @@
 
 Styles for `React` based forms at `nib`.
 
+> WARNING: This component is deprecated. Use `@nib-components/form` instead.
+
 ## Installation
 
     npm install --save @nib-styles/react-form
 
 ## Change log
+
+### 1.0.0
+
+- break: bump version of `v2-icons`
 
 ### 0.6.1
 

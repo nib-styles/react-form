@@ -1,6 +1,6 @@
 {
   "name": "@nib-styles/react-form",
-  "version": "0.6.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:nib-styles/v2-typography.git"
@@ -8,7 +8,7 @@
   "dependencies": {
     "@nib-styles/sass-breakpoints": "^1.0.0",
     "@nib-styles/v2-buttons": "^3.0.1",
-    "@nib-styles/v2-icons": "^2.6.2",
+    "@nib-styles/v2-icons": "^3.0.0",
     "@nib-styles/v2-typography": "^4.2.0",
     "sass-ems": "^1.0.3"
   }
