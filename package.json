@@ -6,10 +6,12 @@
     "url": "git@github.com:nib-styles/v2-typography.git"
   },
   "dependencies": {
+    "@nib-components/radio": "^0.1.0",
+    "@nib-styles/colors": "^1.1.1",
     "@nib-styles/sass-breakpoints": "^1.0.0",
     "@nib-styles/v2-buttons": "^3.0.1",
     "@nib-styles/v2-icons": "^3.0.0",
-    "@nib-styles/v2-typography": "^4.2.0",
+    "@nib-styles/v2-typography": "^4.2.1",
     "sass-ems": "^1.0.3"
   }
 }

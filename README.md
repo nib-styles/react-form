@@ -14,6 +14,18 @@ Styles for `React` based forms at `nib`.
 
 - break: bump version of `v2-icons`
 
+### 0.9.0
+
+- moved `radio` implementation to `@nib-components/radio`
+
+### 0.8.1
+
+- fix: added `margin: 0` to `divider` to override browser specified margins on `<hr/>`s
+
+### 0.8.0
+
+- break: renamed `form__divider` to `divider` and removed the margin so it can be used independently of the form
+
 ### 0.6.1
 
 - fix: fixed disable hover state on `radio` inputs - bg color no longer changes and the cursor is left as the default
